@@ -1,0 +1,267 @@
+/* --------------------------  resetting all the values -------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----------------------------   hero section -------------------------------------- */
+.hero{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.367),rgba(8, 8, 8, 0.395)),url('images/desktop/image-hero.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    padding: 3.125rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    height: 1.875rem;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 3.125rem;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 0.8125rem;
+}
+
+.center{
+    width: 80%;
+    margin: auto;
+}
+
+.hero-text{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    border: 0.125rem solid white;
+    padding: 1.875rem;
+    width: 37.5rem;
+    font-size: 4rem;
+    line-height: 1;
+    margin-top: 8%;
+}
+
+.info{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-img{
+   background-image: url("images/desktop/image-interactive.jpg");
+   background-position: center;
+   background-size: cover;
+   height: 18.75rem;
+   /* height: 40vh; */
+   width: 50%;
+}
+
+.info-text{
+    width: 50%;
+}
+
+.info-text h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    padding: 3.125rem 3.125rem 1.25rem 3.125rem;
+    font-size: 2.7rem;
+}
+
+.info-text p{
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    padding: 0 3.125rem 1.25rem 3.125rem;
+    opacity: 0.5;
+}
+
+/* --------------------------------------------- creation section --------------------------------- */
+.creation-section{
+    width: 80%;
+    margin: auto;
+}
+
+.heading{
+    padding-top: 3.75rem;
+    padding-bottom: 6.25rem;
+    font-size: 2.7rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading button{
+    background: none;
+    border: 0.0625rem solid black;
+    padding: 0.625rem 1.875rem;
+}
+
+.heading button:hover{
+    background-color: black;
+    color: white;
+}
+
+.creation-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.125rem;
+}
+
+.box{
+    height: 31.25rem;
+    width: 15.625rem;
+    padding: 1.875rem;
+    display: flex;
+    align-items: end;
+    font-size: 1.8rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+.box p{
+    opacity: 0.8;
+}
+
+#deep-earth{
+    background-image: url("images/desktop/image-deep-earth.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#night-arcade{
+    background-image: url("images/desktop/image-night-arcade.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#soccer-team{
+    background-image: url("images/desktop/image-soccer-team.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#the-grid{
+    background-image: url("images/desktop/image-grid.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#above-vr{
+    background-image: url("images/desktop/image-from-above.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#pocket-borails{
+    background-image: url("images/desktop/image-pocket-borealis.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#curiosity{
+    background-image: url("images/desktop/image-curiosity.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#fisheye{
+    background-image: url("images/desktop/image-fisheye.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* ------------------------------------------- footer section ---------------------------- */
+footer{
+    height: 12.5rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 10.625rem;
+    padding: 2.5rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 0.8125rem;
+}
+
+.socials{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials img{
+    height: 1.25rem;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.9375rem;
+}
+
+.footer-nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.footer-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 3.125rem;
+}
+
+.footer-nav ul li{
+    list-style-type: none;
+}
+
+.footer-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-nav p{
+    opacity: 0.5;
+}

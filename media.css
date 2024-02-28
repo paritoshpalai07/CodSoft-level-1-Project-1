@@ -1,0 +1,37 @@
+@media (max-width: 860px){
+    html{
+        font-size: 12px;
+    }
+
+    .hero{
+        height: 70vh;
+    }
+}
+
+@media (max-width: 690px){
+    html{
+        font-size: 8px;
+    }
+    .hero{
+        height: 50vh;
+    }
+}
+
+@media (max-width: 440px){
+    html{
+        font-size: 6px;
+    }
+
+    .hero{
+        height: 30vh;
+    }
+
+    .info{
+        height: 40vh;
+    }
+
+    .box{
+        height: 16.25rem;
+        width: 100%;
+    }
+}
