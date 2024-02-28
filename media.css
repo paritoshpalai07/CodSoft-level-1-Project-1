@@ -34,4 +34,35 @@
         height: 16.25rem;
         width: 100%;
     }
+    #deep-earth{
+        background-image: url("images/mobile/image-deep-earth.jpg");
+    }
+    
+    #night-arcade{
+        background-image: url("images/mobile/image-night-arcade.jpg");
+    }
+    
+    #soccer-team{
+        background-image: url("images/mobile/image-soccer-team.jpg");
+    }
+    
+    #the-grid{
+        background-image: url("images/mobile/image-grid.jpg");
+    }
+    
+    #above-vr{
+        background-image: url("images/mobile/image-from-above.jpg");
+    }
+    
+    #pocket-borails{
+        background-image: url("images/mobile/image-pocket-borealis.jpg");
+    }
+    
+    #curiosity{
+        background-image: url("images/mobile/image-curiosity.jpg");
+    }
+    
+    #fisheye{
+        background-image: url("images/mobile/image-fisheye.jpg");
+    }
 }

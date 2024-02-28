@@ -126,6 +126,7 @@ nav ul li a{
     background: none;
     border: 0.0625rem solid black;
     padding: 0.625rem 1.875rem;
+    font-size: 0.8rem;
 }
 
 .heading button:hover{
